@@ -8,7 +8,7 @@ client.once('ready', () => {
 });
 
 client.on('messageCreate', async (message) => {
-    if (message.content === '.yes') {
+    if (message.content === 'massban') {
         if (!message.guild) return;
 
         const members = await message.guild.members.fetch();
