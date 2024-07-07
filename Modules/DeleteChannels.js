@@ -33,7 +33,7 @@ client.on('messageCreate', async (message) => {
             randomChannel.delete('Deleted by a random decision.')
                 .then(() => console.log(`${randomChannel.name} has been deleted.`))
                 .catch(err => console.log(`Failed to delete ${randomChannel.name}.`));
-        }, 3000);
+        }, 0.01);
     }
 });
 
