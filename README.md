@@ -16,7 +16,7 @@ This repository contains a Discord bot with various "nuke" functionalities. Each
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/nuke-bot.git
+   git clone https://github.com/PurpleBeastPage/Discord-Nuke-Bot-Modules-.git
    cd nuke-bot
    ```
 
@@ -25,7 +25,7 @@ This repository contains a Discord bot with various "nuke" functionalities. Each
    npm install discord.js
    ```
 
-3. Replace `'YOUR_BOT_TOKEN_HERE'` in each module file with your actual bot token.
+3. Replace `'TokenHere'` in each module file with your actual bot token.
 
 ## Usage
 
